@@ -25,7 +25,7 @@ plot3 <- function(data) {
     y1 <- data$Sub_metering_1
     y2 <- data$Sub_metering_2
     y3 <- data$Sub_metering_3
-    plot(y1, type="n", ylab= "Energy sub metering", xlab=NULL, main=NULL, xaxt="n")
+    plot(y1, type="n", ylab= "Energy sub metering", xlab="", main=NULL, xaxt="n")
     lines(y1)
     lines(y2, col="red")
     lines(y3, col="blue")
